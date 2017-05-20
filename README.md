@@ -1,6 +1,10 @@
+
 package coladeprioridad;
+
 import java.util.PriorityQueue;
+
 public class ColadePrioridad{
+
     public static void main(String[] args) {
         // TODO code application logic here
         PriorityQueue pq = new PriorityQueue();
@@ -29,3 +33,4 @@ public class ColadePrioridad{
         System.out.println(pq);
     }
 }
+
