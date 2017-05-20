@@ -1,0 +1,2 @@
+# estructuradedatos
+clase
