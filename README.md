@@ -1,10 +1,13 @@
 
 package coladeprioridad;
 
+/**
+ *
+ * @author sony
+ */
 import java.util.PriorityQueue;
 
 public class ColadePrioridad{
-
     public static void main(String[] args) {
         // TODO code application logic here
         PriorityQueue pq = new PriorityQueue();
@@ -25,12 +28,19 @@ public class ColadePrioridad{
             
             System.out.println(pq);
             System.out.println(pq.isEmpty());
+            
+            
         //devuelve el nodo peek
-        System.out.println(pq.peek())
+        
+        System.out.println(pq.peek());
+       
         System.out.println(pq);
+                
+        
         //develve el nodo y lo elimina poll
         pq.poll();
         System.out.println(pq);
+        
     }
+    
 }
-
